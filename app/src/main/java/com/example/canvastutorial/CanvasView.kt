@@ -5,12 +5,11 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Rect
-import android.util.AttributeSet
 import android.view.MotionEvent
 import android.view.View
 
 
-class SpotlightDialogFragment(context: Context) : View(context) {
+class CanvasView(context: Context) : View(context) {
 
     var rect: Rect? = null
     var paint = Paint()
